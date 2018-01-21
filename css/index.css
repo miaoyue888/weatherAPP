@@ -1,0 +1,401 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-18 08:57:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-20 15:26:55
+*/
+/* 通用选择器；清楚默认样式 */
+*{
+	margin-right: 0;
+	padding-bottom: 0;
+	list-style: none}
+body{
+	background: #f5f5f5;
+	font-size:14px;
+	margin: 0;
+}
+.first{
+	width: 100%;
+	height: 13.77rem;
+	background-image: url('../img/screen.png'),linear-gradient(#3cbfff,#43d9ff);
+	background-repeat:  no-repeat;
+	background-position: bottom;
+	background-size: 100% auto,cover;
+}
+.first .pos{
+    width: 100%;
+    height: 1.6rem;
+    color: #ffffff;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+.first .air{
+	width: 2.1rem;
+	height: 1.26rem;
+	background: #f1ab62;
+	border-radius: 0.15rem;
+	margin-left: 0.27rem;
+	
+}
+.first .air h4{
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.3rem;
+	font-weight: 400;
+	padding: 0.2rem;
+}
+.first .air h5{
+	height: 0.34rem;
+	font-size: 0.34rem;
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	margin-top: -18px;
+}
+.first .title1{
+	width: 100%;
+	height: 1.30rem;
+	font-size: 1.3rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.first .title2{
+	width: 100%;
+	height: 0.58rem;
+	font-size: 0.58rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.44rem;
+}
+.first .title3{
+	width: 100%;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 0.35rem;
+}
+.first .title4{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 1.3rem;
+}
+.second{
+	width: 100%;
+	height: 2.88rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #e4e4e4;
+}
+.second .today{
+	width: 5.4rem;
+	height: 1.47rem;
+	border-right: 0.03rem solid #e4e4e4;
+	float: left;
+	margin-top: 0.7rem;
+}
+.second .tomorrow{
+	width: 5.4rem;
+	height: 1.47rem;
+	float: right;
+	margin-top: -1.5rem;
+}
+.second .today .top{
+	width: 100%;
+	height: 0.6rem;
+}
+.second .today .top .todaytext{
+	float: left;
+	width: 0.95rem;
+	height: 100%;
+	line-height: 0.6rem;
+	margin-left: 0.59rem;
+	text-align: right;
+	font-size: 0.3rem;
+}
+.second .today .top .tem{
+	float: right;
+	width: 1.58rem;
+	height: 100%;
+	line-height: 0.6rem;
+	margin-left: 0.59rem;
+	text-align: left;
+	font-size: 0.3rem;
+}
+.second .today .bottom{
+	width: 100%;
+	height: 1.41rem;
+}
+.second .today .bottom .con{
+	float: left;
+	width: 1.9rem;
+	height: 100%;
+	margin-left: 0.9rem;
+	line-height: 1.2rem;
+	font-size: 0.3rem;
+}
+.second .today .bottom .conPic{
+    width: 0.56rem;
+    height: 0.56rem;
+    margin-left: 1.5rem;
+    /* background-image: url('../img/0.png'); */
+    background-size: cover;
+    float: left;
+    margin-top:0.33rem;
+
+}
+.second .tomorrow .top{
+	width: 100%;
+	height: 0.6rem;
+}
+.second .tomorrow .top .tomorrowtext{
+	float: left;
+	width: 0.95rem;
+	height: 100%;
+	line-height: 0.6rem;
+	margin-left: 0.59rem;
+	text-align: right;
+	font-size: 0.3rem;
+}
+.second .tomorrow .top .tem{
+	float: right;
+	width: 1.58rem;
+	height: 100%;
+	line-height: 0.6rem;
+	margin-left: 0.59rem;
+	text-align: left;
+	font-size: 0.3rem;
+}
+.second .tomorrow .bottom{
+	width: 100%;
+	height: 1.41rem;
+}
+.second .tomorrow .bottom .con{
+	float: left;
+	width: 1.9rem;
+	height: 100%;
+	margin-left: 1rem;
+	line-height: 1.2rem;
+	font-size: 0.3rem;
+}
+.second .tomorrow .bottom .conPic{
+    width: 0.56rem;
+    height: 0.56rem;
+    margin-left: 1.5rem;
+    /* background-image: url('../img/0.png'); */
+    background-size: cover;
+    float: left;
+    margin-top:0.33rem;
+
+}
+
+.third{
+	width: 100%;
+	height: 2.08rem;
+	background: #fff;
+	margin-top: 0.27rem;
+	border-top: 0.03rem solid #e4e4e4;
+	border-bottom: 0.03rem solid #e4e4e4;
+	padding: 0.88rem 0 0.88rem 0;
+	/* x方向允许出现滚动条 */
+	overflow-x: auto;
+	/* y方向超出的部分隐藏 */
+	overflow-y: hidden;
+
+}
+/* 滚动条的宽度设置为0 */
+.third::-webkit-scrollbar{
+	width: 0;
+}
+.third .wrap{
+	width: 100%;
+	height: 100%;
+	/* 弹性布局 */
+	display: flex;
+}
+.third .wrap .box{
+    width: 2.05rem;
+    height: 100%;
+    flex-shrink: 0;
+    background: #fff;
+}
+.third .wrap .box .time{
+	font-size: 0.24rem;
+	color: black;
+	text-align: center;
+}
+.third .wrap .box .icon{
+	width: 0.5rem;
+	height: 0.5rem;
+	/* background-image: url('../img/0.png'); */
+	background-size: 100%;
+	margin: 0.57rem auto 0.5rem auto;
+}
+.third .wrap .box .timeTem{
+	font-size: 0.26rem;
+	color: #333;
+	text-align: center;
+}
+.fourth{
+	width: 100%;
+	height: 7.62rem;
+	background: #fff;
+	margin-top: 0.27rem;
+	border-top: 0.03rem solid #e4e4e4;
+	border-bottom: 0.03rem solid #e4e4e4;
+	padding: 0.88rem 0 0.88rem 0;
+	/* x方向允许出现滚动条 */
+	overflow-x: auto;
+	/* y方向超出的部分隐藏 */
+	overflow-y: hidden;
+}
+.fourth::-webkit-scrollbar{
+	width: 0;
+}
+.fourth .wrap1{
+	width: 100%;
+	height: 100%;
+	/* 弹性布局 */
+	display: flex;
+}
+.fourth .wrap1 .box{
+    width: 1.95rem;
+    height: 100%;
+    flex-shrink: 0;
+}
+.fourth .wrap1 .box .date{
+	font-size: 0.26rem;
+	color: black;
+	text-align: center;
+}
+.fourth .wrap1 .box .weather{
+	font-size: 0.23rem;
+	color: #999;
+	text-align: center;
+	margin-top: 0.56rem;
+}
+.fourth .wrap1 .box .photo{
+	width: 0.55rem;
+	height: 0.55rem;
+	background-image: url('../img/1.png');
+	background-size: 100%;
+	margin: 0.57rem auto 0.5rem auto;
+}
+.fourth .wrap1 .box .heighter{
+	font-size: 0.26rem;
+	color: #333;
+	text-align: center;
+	margin-top: 0.9rem;
+}
+.fourth .wrap1 .box .lower{
+	font-size: 0.3rem;
+	color: #333;
+	text-align: center;
+	margin-top: 0.9rem;
+}
+.fourth .wrap1 .box .wind{
+	font-size: 0.35rem;
+	color: #888;
+	text-align: center;
+	margin-top: 1.5rem;
+}
+.fourth .wrap1 .box .rank{
+	font-size: 0.35rem;
+	color: #888;
+	text-align: center;
+	margin-bottom: 0.9rem;
+}
+.city{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 隐藏 */
+	overflow-x: hidden;
+	overflow-y: auto;
+
+}
+.city::-webkit-scrollbar{
+	width: 0;
+}
+.city .search{
+	width: 100%;
+	height: 1.3rem;
+    border-bottom: 0.03rem solid #e4e4e4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 500;
+}
+.city .search .searchBox{
+	width: 7.6rem;
+	height: 0.86rem;
+	border-radius: 0.43rem;
+	background: #f2f2f2;
+	border: none;
+	margin: 0.2rem 0 0 0.36rem;
+	padding-left: 0.93rem;
+	font-size: 0.33rem;
+	color: #808080;
+	float: left;
+}
+.city .search .button{
+	float: left;
+	font-size: 0.33rem;
+	color: #434343;
+	width: 1.83rem;
+	height: 0.86rem;
+	margin-top: 0.2rem;
+	text-align: center;
+	line-height: 0.86rem;
+}
+.city .citys{
+	width: 100%;
+	overflow: hidden;
+	padding: 0.34rem;
+}
+.city .city1{
+	margin-top: 1.2rem;
+}
+.city .citys .title{
+	width: 100%;
+	font-size: 0.36rem;
+	color: #434343;
+	margin-bottom: 0.4rem;
+}
+
+.city .citys.con{
+	width: 100%;
+	background: blue;
+	margin-top: 0.4rem;
+}
+.city .citys .con .box{
+	width: 3.16rem;
+	height: 0.8rem;
+	background: #f2f2f2;
+	border-radius: 0.4rem;
+	font-size: 0.3rem; 
+    color: #434343;
+    text-align: center;
+    line-height: 0.8rem;
+    float: left;
+    margin-right: 0.3rem;
+    margin-bottom: 0.22rem;
+}
+.city .citys .con .box:nth-child(3n){
+	margin-right: 0;
+}
+
+
+
+
+

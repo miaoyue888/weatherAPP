@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 移动端要添加的视口标签 -->
+	<meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>天气APP</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery3.2.1.min.js"></script>
+	<script src="js/rem.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+    <!-- 第一个模块开始 -->
+	<div class="first">
+		<div class="pos"></div>
+		<div class="air">
+			<h4>空气</h4>
+			<h5>轻度污染</h5>
+		</div>
+		<div class="title1"></div>
+		<div class="title2"></div>
+		<div class="title3">
+			<span class="wind_der">湿度</span>
+			<span class="wet wind_level">30%</span>
+		</div>
+		<div class="title4">你若安好，便是晴天</div>
+	</div>
+	<!-- 第一个模块结束 -->
+	<!-- 今天和明天模块开始 -->
+	<div class="second">
+		<div class="today">
+			<div class="top">
+				<div class="todaytext">今天</div>
+				<div class="tem">
+					<span class="heigher">2°</span>
+					<span>/</span>
+					<span class="lower">-11°</span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con">晴转多云</div>
+				<div class="conPic"></div>
+			</div>
+		</div>
+		<div class="tomorrow">
+			<div class="top">
+				<div class="tomorrowtext">明天</div>
+				<div class="tem">
+					<span class="heigher">3°</span>
+	                <span>/</span>
+					<span class="lower">-13°</span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con ">晴</div>
+				<div class="conPic conPic1"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 今天和明天模块结束 -->
+	<!-- 24小时天气模块开始 -->
+	<div class="third">
+		<div class="wrap">
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>13</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">0°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+			    <!-- <div class="time">
+				    <span>14</span>
+				    <span>:</span>
+				    <span>00</span>
+				</div>
+		    	<div class="icon"></div>
+				<div class="timeTem">-1°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>15</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">0°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>16</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">1°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>17</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">0°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>18</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">-1°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>19</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">1°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>20</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">0°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>21</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">1°</div> -->
+            <!-- </div> -->
+            <!-- <div class="box"> -->
+            	<!-- <div class="time">
+            		<span>22</span>
+            		<span>:</span>
+            		<span>00</span>
+            	</div>
+            	<div class="icon"></div>
+            	<div class="timeTem">0°</div> -->
+            <!-- </div> -->
+		</div>
+	</div>
+	<!-- 24小时天气模块结束 -->
+	<!-- 未来天气预测模块开始 -->
+	<div class="fourth">
+		<div class="wrap1">
+			<div class="box">
+				<div class="date">
+					<span>01/15</span>
+				</div>
+				<div class="weather">多云</div>
+				<div class="photo"></div>
+				<div class="heighter">3°</div>
+				<div class="lower">-12°</div>
+				<div class="wind">西北风</div>
+				<div class="rank">3级</div>
+			</div>
+			<div class="box">
+				<div class="date">
+					<span>01/16</span>
+				</div>
+				<div class="weather">晴</div>
+				<div class="photo"></div>
+				<div class="heighter">2°</div>
+				<div class="lower">-11°</div>
+				<div class="wind">西南风</div>
+				<div class="rank">3级</div>
+			</div>
+			<div class="box">
+				<div class="date">
+					<span>01/17</span>
+				</div>
+				<div class="weather">晴</div>
+				<div class="photo"></div>
+				<div class="heighter">3°</div>
+				<div class="lower">-13°</div>
+				<div class="wind">西北风</div>
+				<div class="rank">4级</div>
+			</div>
+			<div class="box">
+				<div class="date">
+					<span>01/18</span>
+				</div>
+				<div class="weather">多云</div>
+				<div class="photo"></div>
+				<div class="heighter">2°</div>
+				<div class="lower">-12°</div>
+				<div class="wind">西风</div>
+				<div class="rank">3级</div>
+			</div>
+			<div class="box">
+				<div class="date">
+					<span>01/19</span>
+				</div>
+				<div class="weather">晴</div>
+				<div class="photo"></div>
+				<div class="heighter">3°</div>
+				<div class="lower">-14°</div>
+				<div class="wind">西风</div>
+				<div class="rank">3级</div>
+			</div>
+			<div class="box">
+				<div class="date">
+					<span>01/20</span>
+				</div>
+				<div class="weather">晴</div>
+				<div class="photo"></div>
+				<div class="heighter">3°</div>
+				<div class="lower">-13°</div>
+				<div class="wind">西风</div>
+				<div class="rank">3级</div>
+			</div>
+			<div class="box">
+				<div class="date">
+					<span>01/21</span>
+				</div>
+				<div class="weather">多云</div>
+				<div class="photo"></div>
+				<div class="heighter">3°</div>
+				<div class="lower">-12°</div>
+				<div class="wind">西南风</div>
+				<div class="rank">3级</div>
+			</div>
+		</div>
+	</div>
+	<!-- 未来天气预测模块结束 -->
+	<!-- 温馨提示模块开始 -->
+	<div class="fifth"></div>
+	<!-- 温馨提示模块结束 -->
+	<!-- 城市搜索模块开始 -->
+	<div class="city">
+		<div class="search">
+		<input type="text" class="searchBox" placeholder="请输入要搜索的城市名称">
+		<div class="button">取消</div>
+	</div>
+	<div class="citys city1">
+		<div class="title">热门城市</div>
+		<div class="con">
+			<div class="box">太原</div>
+			<div class="box">晋城</div>
+			<div class="box">朔州</div>
+			<div class="box">临汾</div>
+			<div class="box">阳泉</div>
+			<div class="box">长治</div>
+		</div>
+	</div>
+	<!-- <div class="citys">
+		<div class="title">热门城市</div>
+		<div class="con">
+			<div class="box">北京</div>
+			<div class="box">上海</div>
+			<div class="box">广州</div>
+			<div class="box">深圳</div>
+			<div class="box">郑州</div>
+			<div class="box">西安</div>
+			<div class="box">南京</div>
+			<div class="box">武汉</div>
+			<div class="box">成都</div>
+		</div>
+	</div> -->
+	<!-- <div class="citys">
+		<div class="title">热门景区</div>
+		<div class="con">
+			<div class="box">故宫</div>
+			<div class="box">颐和园</div>
+			<div class="box">龙门石窟</div>
+			<div class="box">武陵源</div>
+			<div class="box">九寨沟</div>
+			<div class="box">凤凰古城</div>
+			<div class="box">华山</div>
+			<div class="box">黄山</div>
+			<div class="box">秦始皇陵</div>
+		</div> -->
+	   </div>
+	</div>
+	<!-- 城市搜索模块结束 -->
+</body>
+</html>
